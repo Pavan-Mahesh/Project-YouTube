@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Making Youtube</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-session">
+        <img class="menu" src="header-icons/hamburger-menu.svg">
+        <img class="logo" src="header-icons/youtube-logo.svg">
+      </div>
+      <div class="middle-session">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="header-icons/search.svg">
+          <div class="header-icon-tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-icon" src="header-icons/voice-search-icon.svg">
+          <div class="header-icon-tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-session">
+        <div class="upload-container">
+          <img class="upload-icon" src="header-icons/upload.svg">
+          <div class="header-icon-tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="header-icons/youtube-apps.svg">
+          <div class="header-icon-tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications">
+          <img class="notification-icon" src="header-icons/notifications.svg">
+          <div class="notification-count">3</div>
+          <div class="header-icon-tooltip">Notifications</div>
+        </div>
+        <img class="my-channel-icon" src="channel/my-channel.jpeg">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid-layout">
+      <!-- video - 1 -->      
+      <div class="card">
+        <div class="thumb-nail-row">
+            <a href="https://youtu.be/G3e-cpL7ofc?feature=shared" target="_blank">
+              <img class="thumb-nail" src="thumb-nails/thumbnail-1.webp">
+            </a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+              <img class="profile-photo" src="channel/channel-1.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-1.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">SuperSimpleDev</div>
+                <div class="channel-stats">399K subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/G3e-cpL7ofc?feature=shared" target="_blank">
+                HTML & CSS Full Course - Beginner to Pro
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+              <p class="video-author">SuperSimpleDev</p>
+            </a>
+            <p class="video-stats">9M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- video - 2 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/6lix7ppvC5Y?si=XvyZbiTPBRMLUK16" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-2.webp">
+          </a>
+          <div class="video-time">19:43</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@GothamChess" target="_blank">
+              <img class="profile-photo" src="channel/channel-2.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-2.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">GothamChess</div>
+                <div class="channel-stats">4.74M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/6lix7ppvC5Y?si=XvyZbiTPBRMLUK16" target="_blank">
+                Little Kid Crushed Me At Chess In 43 Seconds
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@GothamChess" target="_blank">
+              <p class="video-author">GothamChess</p>
+            </a>
+            <p class="video-stats">180K views &middot; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 3 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/Kmgo00avvEw?feature=shared" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-3.webp">
+          </a>
+          <div class="video-time">4:48:33</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@BroCodez" target="_blank">
+              <img class="profile-photo" src="channel/channel-3.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-3.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Bro Code</div>
+                <div class="channel-stats">1.7M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/Kmgo00avvEw?feature=shared" target="_blank">
+                Java GUI: Full Course ☕ (FREE)
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@BroCodez" target="_blank">
+              <p class="video-author">Bro Code</p>
+            </a>
+            <p class="video-stats">1.8M views &middot; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 4 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/j5pL2nBA5pQ?feature=shared" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-4.webp">
+          </a>
+          <div class="video-time">18:23</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@TheCanadianLad" target="_blank">
+              <img class="profile-photo" src="channel/channel-4.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-4.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">The Canadian Lad</div>
+                <div class="channel-stats">1.76M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/j5pL2nBA5pQ?feature=shared" target="_blank">
+                I Watched Deadpool & Wolverine Trailer in 0.25x Speed and Here's What I Found
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@TheCanadianLad" target="_blank">
+              <p class="video-author">The Canadian Lad</p>
+            </a>
+            <p class="video-stats">943K views &middot; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 5 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/1A_NcXxdoCc?si=ONu2H-0D8-mPmCad" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-5.webp">
+          </a>
+          <div class="video-time">12:20</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@nesoacademy" target="_blank">
+              <img class="profile-photo" src="channel/channel-5.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-5.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Neso Academy</div>
+                <div class="channel-stats">2.48M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/1A_NcXxdoCc?si=ONu2H-0D8-mPmCad" target="_blank">
+                Hamming Code | Error Detection
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@nesoacademy" target="_blank">
+              <p class="video-author">Neso Academy</p>
+            </a>
+            <p class="video-stats">1.8M views &middot; 9 years ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 6 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/6qkZLUxmUpU?si=bKpcie8RdlbQ_Mie" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-6.webp">
+          </a>
+          <div class="video-time">12:38</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@BobboAndonova" target="_blank">
+              <img class="profile-photo" src="channel/channel-6.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-6.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Bobbo Andonova</div>
+                <div class="channel-stats">235K subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/6qkZLUxmUpU?si=bKpcie8RdlbQ_Mie" target="_blank">
+                How I DRAW FACES step by step | Mistakes & tips | Procreate sketch | 👽
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@BobboAndonova" target="_blank">
+              <p class="video-author">Bobbo Andonova</p>
+            </a>
+            <p class="video-stats">2.7M views &middot; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 7 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/B1J6Ou4q8vE?si=XZ1h0ocJgynoprzP" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-7.webp">
+          </a>
+          <div class="video-time">14:03</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@alanbecker" target="_blank">
+              <img class="profile-photo" src="channel/channel-7.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-7.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Alan Becker</div>
+                <div class="channel-stats">26.5M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/B1J6Ou4q8vE?si=XZ1h0ocJgynoprzP" target="_blank">
+                Animation vs. Math
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@alanbecker" target="_blank">
+              <p class="video-author">Alan Becker</p>
+            </a>
+            <p class="video-stats">53M views &middot; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 8 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/DbRXv5TXMEE?si=hHsacwePVimp1l5w" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-8.webp">
+          </a>
+          <div class="video-time">17:18</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@ApnaCollegeOfficial" target="_blank">
+              <img class="profile-photo" src="channel/channel-8.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-8.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Apna College</div>
+                <div class="channel-stats">5.01M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/DbRXv5TXMEE?si=hHsacwePVimp1l5w" target="_blank">
+                Front End Developer RoadMap - for Jobs in 2024
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@ApnaCollegeOfficial" target="_blank">
+              <p class="video-author">Apna College</p>
+            </a>
+            <p class="video-stats">327K views &middot; 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 9 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg&t=318s" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-9.webp">
+          </a>
+          <div class="video-time">22:08</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@veritasium" target="_blank">
+              <img class="profile-photo" src="channel/channel-9.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-9.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Veritasium</div>
+                <div class="channel-stats">15.1M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=094y1Z2wpJg&t=318s" target="_blank">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@veritasium" target="_blank">
+              <p class="video-author">Veritasium</p>
+            </a>
+            <p class="video-stats">39M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 10 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/LEjhY15eCx0?si=kHzfXFLJY1Gq9sCQ" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-10.webp">
+          </a>
+          <div class="video-time">2:25</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@pixar" target="_blank">
+              <img class="profile-photo" src="channel/channel-10.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-10.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Pixar</div>
+                <div class="channel-stats">7.85M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/LEjhY15eCx0?si=kHzfXFLJY1Gq9sCQ" target="_blank">
+                How to put an HTML website online (on the Internet)
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@pixar" target="_blank">
+              <p class="video-author">Pixar</p>
+            </a>
+            <p class="video-stats">15M views &middot; 9 days ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 11 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://youtu.be/dueSa_-KUwE?si=pRQY7yqhqkEOQ1Vy" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-11.webp">
+          </a>
+          <div class="video-time">1:07:15</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@polygonrunway" target="_blank">
+              <img class="profile-photo" src="channel/channel-11.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-11.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">Polygon Runway</div>
+                <div class="channel-stats">451K subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://youtu.be/dueSa_-KUwE?si=pRQY7yqhqkEOQ1Vy" target="_blank">
+                80's Hacker Room in Blender 2.8 - Low Poly 3D Modeling Timelapse Tutorial
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@polygonrunway" target="_blank">
+              <p class="video-author">Polygon Runway</p>
+            </a>
+            <p class="video-stats">511K views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- video - 12 -->
+      <div class="card">
+        <div class="thumb-nail-row">
+          <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank">
+            <img class="thumb-nail" src="thumb-nails/thumbnail-12.webp">
+          </a>
+          <div class="video-time">4:51</div>
+        </div>
+        <div class="video-details-card">
+          <div class="about-channel">
+            <a href="https://www.youtube.com/@TEDEd" target="_blank">
+              <img class="profile-photo" src="channel/channel-12.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="tooltip-profile-photo" src="channel/channel-12.jpeg">
+              <div class="channel-info">
+                <div class="channel-name">TED-Ed</div>
+                <div class="channel-stats">19.7M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank">
+                What would happen if you didn’t drink water? - Mia Nacamulli
+              </a>
+            </p>
+            <a href="https://www.youtube.com/@TEDEd" target="_blank">
+              <p class="video-author">TED-Ed</p>
+            </a>
+            <p class="video-stats">21M views &middot; 7 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
